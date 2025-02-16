@@ -15,7 +15,16 @@ app.post('/registersong', (req,res) => {
         artist,
         album
     }
-    res.status(200).json(newSong);
+    res.status(201).json(newSong);
+})
+
+// Method GET to view information
+app.get('/viewinformation', (req,res) => {
+    const data = {
+        name : "River Roman",
+        carne : "202100096"
+    }
+    res.status(200).json(data);
 })
 
 const port = 3000;
