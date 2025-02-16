@@ -9,11 +9,11 @@ app.get('/', (req,res)=> {
 
 // Method POST to register a new song
 app.post('/registersong', (req,res) => {
-    const{name, artist, album} = req.body;
+    const{name, artist, genre} = req.body;
     const newSong = {
         name,
         artist,
-        album
+        genre
     }
     res.status(201).json(newSong);
 })
