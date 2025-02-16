@@ -2,8 +2,7 @@
 
 |**CARNET**  |      **NOMBRE COMPLETO**          |  
 |----------|:-----------------------------------:|
-|202100096 |  RIVER ANDERSON - ISMALEJ ROMAN     |    
-| AUXILIAR |            FABIAN REYNA             | 
+|202100096 |  RIVER ANDERSON - ISMALEJ ROMAN     | 
 
 #### Endpoints successful
 
